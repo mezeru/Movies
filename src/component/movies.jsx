@@ -27,13 +27,13 @@ function Movies(){
         
         if (handlelen() === 0){
             return <div>
-                <h2>There are no Movies in the data Base</h2>
+                <p>There are no Movies in the data Base</p>
             </div>
         }
 
         return (
              <React.Fragment>
-                 <h2 className="m-2" style={{fontStyle:"Bold"}}>There are {handlelen()} movies in the database</h2>
+                 <p className="m-2" style={{fontStyle:"Bold"}}>There are {handlelen()} movies in the database</p>
                  <br/>
             <table className="table">
                 <thead>

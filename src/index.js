@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Movies from'./component/movies.jsx';
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
+  <BrowserRouter>
   <React.Fragment>
     <App />
   </React.Fragment>
+  </BrowserRouter>
   ,
   document.getElementById('root')
 );
